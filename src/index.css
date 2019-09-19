@@ -1,13 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+html, :root{
+  width: 100%;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Manjari", "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+nav *, nav{
+  text-decoration: none;
+  color: whitesmoke;
+  
+  box-sizing: border-box;  
+}
+.nav-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  background: #333;
+}
+.nav-container div:first-child{
+  display: flex;
+  align-items: center;
+}
+.nav-container img{
+  width: 5vw;
+  height: auto;
+}
+.nav-container a{
+  margin: 0 10px;
+}
+.container{
+  width: 80%;
+  margin: 5vh auto;
+
+  font-size-adjust: 0.6;
 }
