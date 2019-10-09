@@ -2,7 +2,7 @@
   "name": "reactlearn2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://owenizedd.github.io/react-tic-tac-toe",
+  "homepage": "https://owenizedd.github.io/react-meme-generator-tic-tac-toe",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
