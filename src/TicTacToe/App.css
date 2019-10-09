@@ -22,12 +22,19 @@ body{
 }
 
 .game-container{
-  width:50%;
+  width: 30%;
   margin: 25vh auto;
-
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .board > div{
   display: flex;
   flex-direction: row;
+}
+
+ol{
+  display: flex;
+  flex-direction: column;
 }
