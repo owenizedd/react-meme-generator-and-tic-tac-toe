@@ -14,7 +14,6 @@ class App2 extends Component {
 
   componentDidUpdate = () =>{
     let win = this.state.winner;
- 
     let g = this.state.status;
     if (g[0] === g[4] && g[4] === g[8]) win = g[0];
     if (g[1] === g[4] && g[4] === g[7]) win = g[1];
