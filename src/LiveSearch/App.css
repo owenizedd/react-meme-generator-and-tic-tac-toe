@@ -1,9 +1,25 @@
 .boxes{
   width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 .box{
   width: 25%;
   display: inline-block;
   box-sizing: border-box;
   padding: 10px;
+}
+
+.box *{
+  text-align: center;
+  margin: 0 auto;
+}
+.box img{
+  display: block;
+  
+}
+
+.search-app{
+  padding: 100px;
 }
